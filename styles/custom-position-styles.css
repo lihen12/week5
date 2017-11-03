@@ -1,1 +1,35 @@
 /* your styles for position-practice.html here */
+
+body {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 18rem;
+}
+
+header h1 {
+  position: relative;
+  top: 15%;
+  left: 80%;
+}
+
+header p {
+  position: relative;
+  top: 20%;
+  left: 80%;
+}
+
+.pink {
+  margin-top:5rem;
+}
+
+.pink img {
+  float: left;
+}
+
+.pink p {
+  clear: both;
+}

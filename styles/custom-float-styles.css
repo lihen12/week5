@@ -1,1 +1,52 @@
 /* your styles for float-practice.html here */
+
+/* You can group classes using "," */
+
+/* Two horizontal lines
+.blue, .red, .orange, .green {
+  float: left;
+}
+
+.pink {
+  clear: both;
+}
+
+.pink, .purple, .yellow, .black {
+  float: left;
+} 
+*/
+
+/* Upside down L
+.blue, .red, .orange, .green {
+  float: left;
+}
+
+.pink , .purple, .yellow, .black {
+  clear: both;
+  float: left;
+}
+*/
+
+/*
+.blue, .red {
+  float: left;
+}
+
+.orange {
+  clear: both;
+}
+
+.black, .orange, .green, .yellow, .pink, .purple {
+  float: right;
+}
+*/
+
+.blue, .orange, .pink {
+  float: left;
+}
+
+.red, .green, .purple, .yellow, .black {
+  float: right;
+}
+
+
